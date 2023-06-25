@@ -1,0 +1,90 @@
+.chat-box{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.title{
+    padding: 3vmin;
+}
+.heading{
+    font-size: 3vmin;
+}
+.spec{
+    color:#05BC6C;
+}
+.input-section{
+    position: fixed;
+    bottom: 0;
+    margin-left:25%;
+}
+.user-input {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    height: 50px;
+    width: 50vmin;
+    border-width: 0;
+    border-radius: 2vmin;
+    margin: 2vmin;
+    padding: 4vmin;
+    margin-bottom: 4vmin;
+}
+.send-msg-btn {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    height: 50px;
+    width: 50px;
+    border-width: 0;
+    border-radius: 2vmin;
+    margin: 2vmin;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.emoji-msg-btn {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    height: 50px;
+    width: 50px;
+    border-width: 0;
+    border-radius: 2vmin;
+    margin: 2vmin;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.user-id{
+    background-color: #e57742;
+    padding: 10px;
+    height:10px;
+    width: 10px;
+    border-radius: 100%;
+    margin: 3vmin;
+    color: whitesmoke;
+}
+.user-msg{
+    background-color: rgb(161, 161, 161);
+    padding: 1vmin;
+    margin-left: 1vmin;
+    border-top-right-radius: 1.75vmin ;
+    border-bottom-left-radius:1.75vmin ;
+    border-bottom-right-radius:1.75vmin ;
+    width: 40vmin;
+    color: rgb(48, 48, 48);
+    font-size: medium;
+}
+.user-name{
+    margin-top: 3vmin;
+    margin-right: 1vmin;
+    padding: 1vmin;
+    width: 50vmin;
+    color: rgb(116, 116, 116);
+}
+#chat-section{
+    display: flex;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
